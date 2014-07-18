@@ -6,6 +6,7 @@ download.file(fileUrl, destfile = "./getdata_projectfiles_UCI HAR Dataset.zip")
 unzip("./getdata_projectfiles_UCI HAR Dataset.zip")
 ## Step 1:Merges the training and the test sets to create one data set.
 ##setting the path (under the working directory) for the test file
+print("Starting step 1")
 path1<-"./UCI HAR Dataset/test/X_test.txt"
 ##setting the path (under the working directory) for the train file
 path2<-"./UCI HAR Dataset/train/X_train.txt"
@@ -17,7 +18,7 @@ path4<-"./UCI HAR Dataset/train/y_train.txt"
 path5<-"./UCI HAR Dataset/test/subject_test.txt"
 ##setting the path (under the working directory) for the subjects train file
 path6<-"./UCI HAR Dataset/train/subject_train.txt"
-##read the four files
+##read the six files
 tf<-read.table(path1, header=FALSE, sep = "")
 trf<-read.table(path2, header=FALSE, sep = "")
 tfl<-read.table(path3, header=FALSE, sep = "")
@@ -33,6 +34,7 @@ ttf<-rbind(tf, trf)
 dim(ttf)
 ## Step 2:Extracts only the measurements on the mean and standard deviation 
 ##        for each measurement. 
+print("Starting step 2")
 path<-"./UCI HAR Dataset/features.txt"
 features<-read.csv(path, header=FALSE,sep = " ")
 actsub<-data.frame(matrix(vector(), 2, 2, dimnames=list(c(), c("V1", "V2"))), 
@@ -48,12 +50,14 @@ colnames(ttf)<-features$V2
 ## "std()" or "Activity" or "Subject"
 tidyf<-ttf[,grep("\\bmean()\\b|std()|Activity|Subject", colnames(ttf))]
 ## Step 3:Uses descriptive activity names to name the activities in the data set
+print("Starting step 3")
 path<-"./UCI HAR Dataset/activity_labels.txt"
 actlab<-read.csv(path, header=FALSE,sep = " ")
 for (i in 1:6) {
   tidyf$Activity<-gsub(actlab$V1[i], actlab$V2[i], tidyf$Activity)
 }
 ## Step 4:Appropriately labels the data set with descriptive variable names
+print("Starting step 4")
 colnames(tidyf)<-gsub("-", "", colnames(tidyf))
 colnames(tidyf)<-gsub("\\(", "", colnames(tidyf))
 colnames(tidyf)<-gsub("\\)", "", colnames(tidyf))
@@ -61,7 +65,7 @@ colnames(tidyf)<-gsub(",", "", colnames(tidyf))
 colnames(tidyf)<-gsub("^t", "TimeSignals", colnames(tidyf))
 ##colnames(tidyf)<-gsub("anglet", "angleTimeSignals", colnames(tidyf))
 colnames(tidyf)<-gsub("^f", "Frequency", colnames(tidyf))
-colnames(tidyf)<-gsub("Acc", "Acceleration", colnames(tidyf))
+colnames(tidyf)<-gsub("Acc", "Accelerometer", colnames(tidyf))
 colnames(tidyf)<-gsub("Gyro", "Gyroscope", colnames(tidyf))
 colnames(tidyf)<-gsub("std", "Standarddeviation", colnames(tidyf))
 colnames(tidyf)<-gsub("mean", "Mean", colnames(tidyf))
@@ -75,6 +79,8 @@ colnames(tidyf)<-gsub("BodyBody", "Body", colnames(tidyf))
 ###colnames(tidyf)<-gsub("MagFreq", "Mag", colnames(tidyf))
 ## Step 5:Creates a second, independent tidy data set with the average of each variable 
 ##        for each activity and each subject
+print("Starting step 5")
+require(plyr)
+## the amazing!!, awesome!! ddply function saved me one day of work
 ntidyf<-ddply(tidyf, .(Subject, Activity), numcolwise(mean))
 write.table(ntidyf, "./TidyFileCourseProject.txt", row.names=FALSE)
-##xxxx
