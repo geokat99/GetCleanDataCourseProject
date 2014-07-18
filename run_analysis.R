@@ -77,3 +77,4 @@ colnames(tidyf)<-gsub("BodyBody", "Body", colnames(tidyf))
 ##        for each activity and each subject
 ntidyf<-ddply(tidyf, .(Subject, Activity), numcolwise(mean))
 write.table(ntidyf, "./TidyFileCourseProject.txt", row.names=FALSE)
+##xxxx
