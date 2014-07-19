@@ -1,9 +1,11 @@
 DATA DICTIONARY - 2014 
 -------
 
-for the Getting and Cleaning Data Course Project Tidy Data Set 
+of 'the Getting and Cleaning Data Course Project' Tidy Data Set 
 
-Means of various measurements per subject and activity  
+180 rows (30 subject * 6 activities)  
+68  columns (Subject + Activity + 66 means of various measurements per subject and activity  
+the various measurements are all either mean or standard deviation measurements
 
 Subject  
 Subject of the experiment (One out of thirty persons/subjects)  
@@ -21,271 +23,268 @@ character
     STANDING
     LAYING
 
-"All the following 66 variables (of the final tidy data file) 
-are the means of all the measurements, for the specific subject and activity"
-
-TimeSignalsBodyAccelerometerMeanXaxis  
-Mean of Time signals of X axis body Accelerometer  
+TimeSignalsBodyAccelerationMeanXaxis  
+Mean of Time signals of X axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerMeanYaxis  
-Mean of Time signals of Y axis body Accelerometer  
+TimeSignalsBodyAccelerationMeanYaxis  
+Mean of Time signals of Y axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerMeanZaxis  
-Mean of Time signals of Z axis body Accelerometer  
+TimeSignalsBodyAccelerationMeanZaxis  
+Mean of Time signals of Z axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerStandarddeviationXaxis  
-Standard deviation of Time signals of X axis Accelerometer  
+TimeSignalsBodyAccelerationStandarddeviationXaxis  
+Standard deviation of Time signals of X axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerStandarddeviationYaxis  
-Standard deviation of Time signals of Y axis Accelerometer  
+TimeSignalsBodyAccelerationStandarddeviationYaxis  
+Standard deviation of Time signals of Y axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerStandarddeviationZaxis  
-Standard deviation of Time signals of Z axis Accelerometer  
+TimeSignalsBodyAccelerationStandarddeviationZaxis  
+Standard deviation of Time signals of Z axis body Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerMeanXaxis  
-Mean of Time signals of X axis gravity Accelerometer  
+TimeSignalsGravityAccelerationMeanXaxis  
+Mean of Time signals of X axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerMeanYaxis  
-Mean of Time signals of Y axis gravity Accelerometer  
+TimeSignalsGravityAccelerationMeanYaxis  
+Mean of Time signals of Y axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerMeanZaxis  
-Mean of Time signals of Z axis gravity Accelerometer  
+TimeSignalsGravityAccelerationMeanZaxis  
+Mean of Time signals of Z axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerStandarddeviationXaxis  
-Standard deviation of Time signals of X axis gravity Accelerometer  
+TimeSignalsGravityAccelerationStandarddeviationXaxis  
+Standard deviation of Time signals of X axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerStandarddeviationYaxis  
-Standard deviation of Time signals of Y axis gravity Accelerometer  
+TimeSignalsGravityAccelerationStandarddeviationYaxis  
+Standard deviation of Time signals of Y axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerStandarddeviationZaxis  
-Standard deviation of Time signals of Z axis gravity Accelerometer  
+TimeSignalsGravityAccelerationStandarddeviationZaxis  
+Standard deviation of Time signals of Z axis gravity Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkMeanXaxis  
-Mean of Time signals of X axis jerk body Accelerometer  
+TimeSignalsBodyAccelerationJerkMeanXaxis  
+Mean of Time signals of X axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkMeanYaxis  
-Mean of Time signals of Y axis jerk body Accelerometer  
+TimeSignalsBodyAccelerationJerkMeanYaxis  
+Mean of Time signals of Y axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkMeanZaxis  
-Mean of Time signals of Z axis jerk body Accelerometer  
+TimeSignalsBodyAccelerationJerkMeanZaxis  
+Mean of Time signals of Z axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkStandarddeviationXaxis  
-Standard deviation of Time signals of X axis jerk body Accelerometer  
+TimeSignalsBodyAccelerationJerkStandarddeviationXaxis  
+Standard deviation of Time signals of X axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkStandarddeviationYaxis  
-Standard deviation of Time signals of Y axis jerk body Accelerometer  
+TimeSignalsBodyAccelerationJerkStandarddeviationYaxis  
+Standard deviation of Time signals of Y axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkStandarddeviationZaxis  
-Standard deviation of Time signals of Z axis jerk body Accelerometer  
+TimeSignalsBodyAccelerationJerkStandarddeviationZaxis  
+Standard deviation of Time signals of Z axis jerk body Acceleration  
 numeric
 
 TimeSignalsBodyGyroscopeMeanXaxis  
-Mean of Time signals of X axis body Gyroscope  
+Mean of Time signals of X axis body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeMeanYaxis  
-Mean of Time signals of Y axis body Gyroscope 
+Mean of Time signals of Y axis body Gyroscope Angular velocity 
 numeric
 
 TimeSignalsBodyGyroscopeMeanZaxis  
-Mean of Time signals of Z axis body Gyroscope  
+Mean of Time signals of Z axis body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeStandarddeviationXaxis  
-Standard deviation of Time signals of X axis body Gyroscope  
+Standard deviation of Time signals of X axis body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeStandarddeviationYaxis  
-Standard deviation of Time signals of Y axis body Gyroscope  
+Standard deviation of Time signals of Y axis body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeStandarddeviationZaxis  
-Standard deviation of Time signals of Z axis body Gyroscope  
+Standard deviation of Time signals of Z axis body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkMeanXaxis  
-Mean of Time signals of X axis jerk body Gyroscope  
+Mean of Time signals of X axis jerk body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkMeanYaxis  
-Mean of Time signals of Y axis jerk body Gyroscope  
+Mean of Time signals of Y axis jerk body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkMeanZaxis  
-Mean of Time signals of Z axis jerk body Gyroscope  
+Mean of Time signals of Z axis jerk body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkStandarddeviationXaxis  
-Standard deviation of Time signals of X axis jerk body Gyroscope  
+Standard deviation of Time signals of X axis jerk body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkStandarddeviationYaxis  
-Standard deviation of Time signals of Y axis jerk body Gyroscope  
+Standard deviation of Time signals of Y axis jerk body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkStandarddeviationZaxis  
-Standard deviation of Time signals of Z axis jerk body Gyroscope  
+Standard deviation of Time signals of Z axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyAccelerometerMagMean  
-Mean of Time signals of magnitude body Accelerometer  
+TimeSignalsBodyAccelerationMagMean  
+Mean of Time signals of magnitude body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerMagStandarddeviation  
-Standard deviation of Time signals of magnitude body Accelerometer  
+TimeSignalsBodyAccelerationMagStandarddeviation  
+Standard deviation of Time signals of magnitude body Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerMagMean  
-Mean of Time signals of magnitude gravity Accelerometer  
+TimeSignalsGravityAccelerationMagMean  
+Mean of Time signals of magnitude gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerometerMagStandarddeviation  
-Standard deviation of Time signals of magnitude gravity Accelerometer  
+TimeSignalsGravityAccelerationMagStandarddeviation  
+Standard deviation of Time signals of magnitude gravity Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkMagMean  
-Mean of Time signals of jerk magnitude body Accelerometer  
+TimeSignalsBodyAccelerationJerkMagMean  
+Mean of Time signals of jerk magnitude body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerometerJerkMagStandarddeviation  
-Standard deviation of Time signals of jerk magnitude body Accelerometer  
+TimeSignalsBodyAccelerationJerkMagStandarddeviation  
+Standard deviation of Time signals of jerk magnitude body Acceleration  
 numeric
 
 TimeSignalsBodyGyroscopeMagMean  
-Mean of Time signals of magnitude body Gyroscope  
+Mean of Time signals of magnitude body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeMagStandarddeviation  
-Standard deviation of Time signals of magnitude body Gyroscope  
+Standard deviation of Time signals of magnitude body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkMagMean  
-Mean of Time signals of jerk magnitude body Gyroscope  
+Mean of Time signals of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
 TimeSignalsBodyGyroscopeJerkMagStandarddeviation  
-Standard deviation of Time signals of jerk magnitude body Gyroscope  
+Standard deviation of Time signals of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyAccelerometerMeanXaxis  
-Mean of Frequency of X axis body Accelerometer  
+FrequencyBodyAccelerationMeanXaxis  
+Mean of Frequency of X axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerMeanYaxis  
-Mean of Frequency of Y axis body Accelerometer  
+FrequencyBodyAccelerationMeanYaxis  
+Mean of Frequency of Y axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerMeanZaxis  
-Mean of Frequency of Z axis body Accelerometer  
+FrequencyBodyAccelerationMeanZaxis  
+Mean of Frequency of Z axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerStandarddeviationXaxis  
-Standard deviation of Frequency of X axis body Accelerometer  
+FrequencyBodyAccelerationStandarddeviationXaxis  
+Standard deviation of Frequency of X axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerStandarddeviationYaxis  
-Standard deviation of Frequency of Y axis body Accelerometer  
+FrequencyBodyAccelerationStandarddeviationYaxis  
+Standard deviation of Frequency of Y axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerStandarddeviationZaxis  
-Standard deviation of Frequency of Z axis body Accelerometer  
+FrequencyBodyAccelerationStandarddeviationZaxis  
+Standard deviation of Frequency of Z axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkMeanXaxis  
-Mean of Frequency of X axis jerk body Accelerometer  
+FrequencyBodyAccelerationJerkMeanXaxis  
+Mean of Frequency of X axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkMeanYaxis  
-Mean of Frequency of Y axis jerk body Accelerometer  
+FrequencyBodyAccelerationJerkMeanYaxis  
+Mean of Frequency of Y axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkMeanZaxis  
-Mean of Frequency of Z axis jerk body Accelerometer  
+FrequencyBodyAccelerationJerkMeanZaxis  
+Mean of Frequency of Z axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkStandarddeviationXaxis  
-Standard deviation of Frequency of X axis jerk body Accelerometer  
+FrequencyBodyAccelerationJerkStandarddeviationXaxis  
+Standard deviation of Frequency of X axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkStandarddeviationYaxis  
-Standard deviation of Frequency of Y axis jerk body Accelerometer  
+FrequencyBodyAccelerationJerkStandarddeviationYaxis  
+Standard deviation of Frequency of Y axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkStandarddeviationZaxis  
-Standard deviation of Frequency of Z axis jerk body Accelerometer  
+FrequencyBodyAccelerationJerkStandarddeviationZaxis  
+Standard deviation of Frequency of Z axis jerk body Acceleration  
 numeric
 
 FrequencyBodyGyroscopeMeanXaxis  
-Mean of Frequency of X axis body Gyroscope  
+Mean of Frequency of X axis body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeMeanYaxis  
-Mean of Frequency of Y axis body Gyroscope  
+Mean of Frequency of Y axis body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeMeanZaxis  
-Mean of Frequency of Z axis body Gyroscope  
+Mean of Frequency of Z axis body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeStandarddeviationXaxis  
-Standard deviation of Frequency of X axis body Gyroscope  
+Standard deviation of Frequency of X axis body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeStandarddeviationYaxis  
-Standard deviation of Frequency of Y axis body Gyroscope  
+Standard deviation of Frequency of Y axis body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeStandarddeviationZaxis  
-Standard deviation of Frequency of Z axis body Gyroscope  
+Standard deviation of Frequency of Z axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyAccelerometerMagMean  
-Mean of Frequency of magnitude body Accelerometer  
+FrequencyBodyAccelerationMagMean  
+Mean of Frequency of magnitude body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerMagStandarddeviation  
-Standard deviation of Frequency of magnitude body Accelerometer  
+FrequencyBodyAccelerationMagStandarddeviation  
+Standard deviation of Frequency of magnitude body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkMagMean  
-Mean of Frequency of jerk magnitude body Accelerometer  
+FrequencyBodyAccelerationJerkMagMean  
+Mean of Frequency of jerk magnitude body Acceleration  
 numeric
 
-FrequencyBodyAccelerometerJerkMagStandarddeviation  
-Standard deviation of Frequency of jerk magnitude body Accelerometer  
+FrequencyBodyAccelerationJerkMagStandarddeviation  
+Standard deviation of Frequency of jerk magnitude body Acceleration  
 numeric
 
 FrequencyBodyGyroscopeMagMean  
-Mean of Frequency of magnitude body Gyroscope  
+Mean of Frequency of magnitude body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeMagStandarddeviation  
-Standard deviation of Frequency of magnitude body Gyroscope  
+Standard deviation of Frequency of magnitude body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeJerkMagMean  
-Mean of Frequency of jerk magnitude body Gyroscope  
+Mean of Frequency of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
 FrequencyBodyGyroscopeJerkMagStandarddeviation  
-Standard deviation of Frequency of jerk magnitude body Gyroscope  
+Standard deviation of Frequency of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
 
@@ -300,15 +299,15 @@ Each person performed six activities
     SITTING
     STANDING
     LAYING 
-wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and Gyroscope, we captured 3-axial linear Accelerometer and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
+wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
-The sensor signals (accelerometer and Gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor Accelerometer signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body Accelerometer and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 Attribute Information:
 For each record in the dataset it is provided:
-- Triaxial Accelerometer from the accelerometer (total Accelerometer) and the estimated body Accelerometer.
-- Triaxial Angular velocity from the Gyroscope.
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope.
 - A 561-feature vector with time and frequency domain variables.
 - Its activity label.
 - An identifier of the subject who carried out the experiment. 
