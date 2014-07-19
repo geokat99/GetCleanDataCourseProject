@@ -3,7 +3,7 @@
 
 Coursera Getting and Cleaning Data Course Peer Assessment Course Project
 
-######    listing all the related files  
+####    listing all the related files  
 
 -downloadable zip file
 [HAR Dataset zip file]
