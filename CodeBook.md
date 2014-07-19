@@ -7,12 +7,12 @@ of 'the Getting and Cleaning Data Course Project' Tidy Data Set
 68  columns (Subject + Activity + 66 means of various measurements per subject and activity  
 the various measurements are all either mean or standard deviation measurements
 
-Subject  
+#####Subject  
 Subject of the experiment (One out of thirty persons/subjects)  
 integer 1  
 1..30  
 
-Activity  
+#####Activity  
 Activity the subjects performs for the experiment  
 character
   
@@ -23,267 +23,267 @@ character
     STANDING
     LAYING
 
-TimeSignalsBodyAccelerationMeanXaxis  
+#####TimeSignalsBodyAccelerationMeanXaxis  
 Mean of Time signals of X axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationMeanYaxis  
+#####TimeSignalsBodyAccelerationMeanYaxis  
 Mean of Time signals of Y axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationMeanZaxis  
+#####TimeSignalsBodyAccelerationMeanZaxis  
 Mean of Time signals of Z axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationStandarddeviationXaxis  
+#####TimeSignalsBodyAccelerationStandarddeviationXaxis  
 Standard deviation of Time signals of X axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationStandarddeviationYaxis  
+#####TimeSignalsBodyAccelerationStandarddeviationYaxis  
 Standard deviation of Time signals of Y axis body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationStandarddeviationZaxis  
+#####TimeSignalsBodyAccelerationStandarddeviationZaxis  
 Standard deviation of Time signals of Z axis body Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationMeanXaxis  
+#####TimeSignalsGravityAccelerationMeanXaxis  
 Mean of Time signals of X axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationMeanYaxis  
+#####TimeSignalsGravityAccelerationMeanYaxis  
 Mean of Time signals of Y axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationMeanZaxis  
+#####TimeSignalsGravityAccelerationMeanZaxis  
 Mean of Time signals of Z axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationStandarddeviationXaxis  
+#####TimeSignalsGravityAccelerationStandarddeviationXaxis  
 Standard deviation of Time signals of X axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationStandarddeviationYaxis  
+#####TimeSignalsGravityAccelerationStandarddeviationYaxis  
 Standard deviation of Time signals of Y axis gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationStandarddeviationZaxis  
+#####TimeSignalsGravityAccelerationStandarddeviationZaxis  
 Standard deviation of Time signals of Z axis gravity Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkMeanXaxis  
+#####TimeSignalsBodyAccelerationJerkMeanXaxis  
 Mean of Time signals of X axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkMeanYaxis  
+#####TimeSignalsBodyAccelerationJerkMeanYaxis  
 Mean of Time signals of Y axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkMeanZaxis  
+#####TimeSignalsBodyAccelerationJerkMeanZaxis  
 Mean of Time signals of Z axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkStandarddeviationXaxis  
+#####TimeSignalsBodyAccelerationJerkStandarddeviationXaxis  
 Standard deviation of Time signals of X axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkStandarddeviationYaxis  
+#####TimeSignalsBodyAccelerationJerkStandarddeviationYaxis  
 Standard deviation of Time signals of Y axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkStandarddeviationZaxis  
+#####TimeSignalsBodyAccelerationJerkStandarddeviationZaxis  
 Standard deviation of Time signals of Z axis jerk body Acceleration  
 numeric
 
-TimeSignalsBodyGyroscopeMeanXaxis  
+#####TimeSignalsBodyGyroscopeMeanXaxis  
 Mean of Time signals of X axis body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeMeanYaxis  
+#####TimeSignalsBodyGyroscopeMeanYaxis  
 Mean of Time signals of Y axis body Gyroscope Angular velocity 
 numeric
 
-TimeSignalsBodyGyroscopeMeanZaxis  
+#####TimeSignalsBodyGyroscopeMeanZaxis  
 Mean of Time signals of Z axis body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeStandarddeviationXaxis  
+#####TimeSignalsBodyGyroscopeStandarddeviationXaxis  
 Standard deviation of Time signals of X axis body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeStandarddeviationYaxis  
+#####TimeSignalsBodyGyroscopeStandarddeviationYaxis  
 Standard deviation of Time signals of Y axis body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeStandarddeviationZaxis  
+#####TimeSignalsBodyGyroscopeStandarddeviationZaxis  
 Standard deviation of Time signals of Z axis body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkMeanXaxis  
+#####TimeSignalsBodyGyroscopeJerkMeanXaxis  
 Mean of Time signals of X axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkMeanYaxis  
+#####TimeSignalsBodyGyroscopeJerkMeanYaxis  
 Mean of Time signals of Y axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkMeanZaxis  
+#####TimeSignalsBodyGyroscopeJerkMeanZaxis  
 Mean of Time signals of Z axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkStandarddeviationXaxis  
+#####TimeSignalsBodyGyroscopeJerkStandarddeviationXaxis  
 Standard deviation of Time signals of X axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkStandarddeviationYaxis  
+#####TimeSignalsBodyGyroscopeJerkStandarddeviationYaxis  
 Standard deviation of Time signals of Y axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkStandarddeviationZaxis  
+#####TimeSignalsBodyGyroscopeJerkStandarddeviationZaxis  
 Standard deviation of Time signals of Z axis jerk body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyAccelerationMagMean  
+#####TimeSignalsBodyAccelerationMagMean  
 Mean of Time signals of magnitude body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationMagStandarddeviation  
+#####TimeSignalsBodyAccelerationMagStandarddeviation  
 Standard deviation of Time signals of magnitude body Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationMagMean  
+#####TimeSignalsGravityAccelerationMagMean  
 Mean of Time signals of magnitude gravity Acceleration  
 numeric
 
-TimeSignalsGravityAccelerationMagStandarddeviation  
+#####TimeSignalsGravityAccelerationMagStandarddeviation  
 Standard deviation of Time signals of magnitude gravity Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkMagMean  
+#####TimeSignalsBodyAccelerationJerkMagMean  
 Mean of Time signals of jerk magnitude body Acceleration  
 numeric
 
-TimeSignalsBodyAccelerationJerkMagStandarddeviation  
+#####TimeSignalsBodyAccelerationJerkMagStandarddeviation  
 Standard deviation of Time signals of jerk magnitude body Acceleration  
 numeric
 
-TimeSignalsBodyGyroscopeMagMean  
+#####TimeSignalsBodyGyroscopeMagMean  
 Mean of Time signals of magnitude body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeMagStandarddeviation  
+#####TimeSignalsBodyGyroscopeMagStandarddeviation  
 Standard deviation of Time signals of magnitude body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkMagMean  
+#####TimeSignalsBodyGyroscopeJerkMagMean  
 Mean of Time signals of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
-TimeSignalsBodyGyroscopeJerkMagStandarddeviation  
+#####TimeSignalsBodyGyroscopeJerkMagStandarddeviation  
 Standard deviation of Time signals of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyAccelerationMeanXaxis  
+#####FrequencyBodyAccelerationMeanXaxis  
 Mean of Frequency of X axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerationMeanYaxis  
+#####FrequencyBodyAccelerationMeanYaxis  
 Mean of Frequency of Y axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerationMeanZaxis  
+#####FrequencyBodyAccelerationMeanZaxis  
 Mean of Frequency of Z axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerationStandarddeviationXaxis  
+#####FrequencyBodyAccelerationStandarddeviationXaxis  
 Standard deviation of Frequency of X axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerationStandarddeviationYaxis  
+#####FrequencyBodyAccelerationStandarddeviationYaxis  
 Standard deviation of Frequency of Y axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerationStandarddeviationZaxis  
+#####FrequencyBodyAccelerationStandarddeviationZaxis  
 Standard deviation of Frequency of Z axis body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkMeanXaxis  
+#####FrequencyBodyAccelerationJerkMeanXaxis  
 Mean of Frequency of X axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkMeanYaxis  
+#####FrequencyBodyAccelerationJerkMeanYaxis  
 Mean of Frequency of Y axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkMeanZaxis  
+#####FrequencyBodyAccelerationJerkMeanZaxis  
 Mean of Frequency of Z axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkStandarddeviationXaxis  
+#####FrequencyBodyAccelerationJerkStandarddeviationXaxis  
 Standard deviation of Frequency of X axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkStandarddeviationYaxis  
+#####FrequencyBodyAccelerationJerkStandarddeviationYaxis  
 Standard deviation of Frequency of Y axis jerk body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkStandarddeviationZaxis  
+#####FrequencyBodyAccelerationJerkStandarddeviationZaxis  
 Standard deviation of Frequency of Z axis jerk body Acceleration  
 numeric
 
-FrequencyBodyGyroscopeMeanXaxis  
+#####FrequencyBodyGyroscopeMeanXaxis  
 Mean of Frequency of X axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeMeanYaxis  
+#####FrequencyBodyGyroscopeMeanYaxis  
 Mean of Frequency of Y axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeMeanZaxis  
+#####FrequencyBodyGyroscopeMeanZaxis  
 Mean of Frequency of Z axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeStandarddeviationXaxis  
+#####FrequencyBodyGyroscopeStandarddeviationXaxis  
 Standard deviation of Frequency of X axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeStandarddeviationYaxis  
+#####FrequencyBodyGyroscopeStandarddeviationYaxis  
 Standard deviation of Frequency of Y axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeStandarddeviationZaxis  
+#####FrequencyBodyGyroscopeStandarddeviationZaxis  
 Standard deviation of Frequency of Z axis body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyAccelerationMagMean  
+#####FrequencyBodyAccelerationMagMean  
 Mean of Frequency of magnitude body Acceleration  
 numeric
 
-FrequencyBodyAccelerationMagStandarddeviation  
+#####FrequencyBodyAccelerationMagStandarddeviation  
 Standard deviation of Frequency of magnitude body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkMagMean  
+#####FrequencyBodyAccelerationJerkMagMean  
 Mean of Frequency of jerk magnitude body Acceleration  
 numeric
 
-FrequencyBodyAccelerationJerkMagStandarddeviation  
+#####FrequencyBodyAccelerationJerkMagStandarddeviation  
 Standard deviation of Frequency of jerk magnitude body Acceleration  
 numeric
 
-FrequencyBodyGyroscopeMagMean  
+#####FrequencyBodyGyroscopeMagMean  
 Mean of Frequency of magnitude body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeMagStandarddeviation  
+#####FrequencyBodyGyroscopeMagStandarddeviation  
 Standard deviation of Frequency of magnitude body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeJerkMagMean  
+#####FrequencyBodyGyroscopeJerkMagMean  
 Mean of Frequency of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
-FrequencyBodyGyroscopeJerkMagStandarddeviation  
+#####FrequencyBodyGyroscopeJerkMagStandarddeviation  
 Standard deviation of Frequency of jerk magnitude body Gyroscope Angular velocity  
 numeric
 
